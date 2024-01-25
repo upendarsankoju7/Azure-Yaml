@@ -64,5 +64,5 @@ stages:
             inputs:
               azureSubscription: '$(azureSubscription)'
               appType: 'webAppLinux'
-              appName: 'upendar.azurewebsites.net'
+              appName: 'upendar'
               package: '$(Pipeline.Workspace)/drop/**/target/*.?(war|jar)'
