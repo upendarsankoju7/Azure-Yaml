@@ -60,7 +60,7 @@ stages:
         deploy:
           steps:
           - task: AzureWebApp@1
-            displayName: 'Azure Web App Deploy: mySuperAwesomeApp'
+            displayName: 'Azure Web App Deploy: Upendar07'
             inputs:
               azureSubscription: '$(azureSubscription)'
               appType: 'webAppLinux'
